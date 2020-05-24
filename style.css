@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+.hero-fashion{
+    background: #fff;
+    margin: 10px auto;
+    height: 80vh;
+    width: 80vw;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    background-image: url(images/4.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    position: relative;
+}
+.box{
+    position: absolute;
+    background: transparent;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    top: 24rem;
+    width: 100%;
+    color: #e8e8e8;
+    line-height: 10px;
+}
+.row{
+    display: grid;
+    
+    grid-template-areas: 
+    "tall-span wide-span wide-span box1"
+    "tall-span box2 box3 box3"
+    "box4 box5 box6 box7"
+    "box8 box9 box10 box11";
+    margin: 10px auto;
+    height: 100%;
+    width: 80vw;
+    grid-gap:30px;
+    margin-bottom: 4rem;
+
+}
+.tall-span{
+    grid-area: tall-span;
+    background: #fff;
+    height:500px;
+    background-image: url(images/11.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+   
+}
+.wide-span{
+    grid-area: wide-span;
+    background: #fff;
+    background-image: url(images/6.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box1{
+    grid-area: box1;
+    background: #fff;
+    background-image: url(images/7.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box2{
+    grid-area: box2;
+    background: #fff;
+    background-image: url(images/8.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box3{
+    grid-area: box3;
+    background: #fff;
+    background-image: url(images/9.jpg);
+    background-position: center center;
+    background-size: cover;
+  
+}
+.box4{
+    grid-area: box4;
+    background: #fff;
+    height: 250px;
+    background-image: url(images/10.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box5{
+    grid-area: box5;
+    background: #fff;
+    background-image: url(images/12.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box6{
+    grid-area: box6;
+    background: #fff;
+    background-image: url(images/13.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box7{
+    grid-area: box7;
+    background: #fff;
+    background-image: url(images/14.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box8{
+    grid-area: box8;
+    background: #fff;
+    height: 250px;
+    background-image: url(images/15.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box9{
+    grid-area: box9;
+    background: #fff;
+    background-image: url(images/16.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box10{
+    grid-area: box10;
+    background: #fff;
+    background-image: url(images/17.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.box11{
+    grid-area: box11;
+    background: #fff;
+    background-image: url(images/18.jpg);
+    background-position: center center;
+    background-size: cover;
+}
